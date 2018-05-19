@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/DaynaMarie07/IOUapp/issues"
   },
-  "homepage": "https://github.com/DaynaMarie07/IOUapp#readme"
+  "homepage": "https://github.com/DaynaMarie07/IOUapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "titleize": "^1.0.1"
+  }
 }
