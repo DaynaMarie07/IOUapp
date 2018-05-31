@@ -14,10 +14,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
  //  .json parse
 app.use(bodyParser.json());
 // static directory
-app.use(express.static("public"));
+app.use('/public', express.static("public"));
 
 // routes
 require("./routes/api-routes.js")(app);
+require("./routes/html-routes.js")(app);
 
 // sync seq models for express app
 db.sequelize.sync().then(function() {

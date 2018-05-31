@@ -1,1 +1,2 @@
-CREATE table IOUs();
+DROP DATABASE IF EXISTS `iouapp_db`;
+CREATE DATABASE `iouapp_db`;
