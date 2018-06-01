@@ -9,6 +9,16 @@ $.ajax({
   }
 })
 
+// console.log("script.js loading...")
+
+$.ajax({
+  URL: "/api/ious",
+  type: "GET",
+  success: function(data){
+    console.log(data);
+  }
+})
+
 
 
 

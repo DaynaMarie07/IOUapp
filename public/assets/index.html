@@ -103,12 +103,20 @@
       })
       .done(function (data) {
         data.articles.forEach(element => {
-          console.log(element);
-          console.log("===============");
+          // console.log(element);
+          // console.log("===============");
           $("#twitter-timeline").append("<div>" + element.title + "</div>");
         });
-        
+
       });
+
+    $.ajax({
+      url: "/api/ious",
+      method: "GET",
+      success: function (data) {
+        console.log(data);
+      }
+    })
   </script>
 </body>
 
