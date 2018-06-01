@@ -6,9 +6,11 @@ var db = require("../models");
 module.exports = function(app) {
   // GET route for all ious
   app.get("/api/ious", function(req, res) {
+    console.log("we did it!!!")
     // findAll returns
     db.Iou.findAll({}).then(function(dbIou) {
       // place new IOU in callback
+      console.log(dbIou);
       res.json(dbIou);
     });
   });
@@ -18,7 +20,7 @@ module.exports = function(app) {
     console.log(req.body);
     db.Iou.create({
       text: req.body.text,
-      complete: req.body.complete,
+      places: req.body.places,
       differential: req.body.differential
     }).then(function(dbIou) {
       // place new Iou in the callback

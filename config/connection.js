@@ -9,10 +9,10 @@ if (process.env.JAWSDB_URL) {
 
   connection = mysql.createConnection({
   port: 8889,
-  host: "locahost",
+  host: "localhost",
   user: "root",
   password: "root",
-  database: "IOUapp_db"
+  database: "iouapp_db"
 });
 }
 
