@@ -1,24 +1,21 @@
 <html lang="en">
 <head>
-  <title>Profile</title>
- <!--link to main CSS-->
+  <title>Send & Request Money</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-<link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" href="/framework7/dist/css/framework7.min.css">
-  <link rel="stylesheet" href="/framework7/dist/css/my-app.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script> -->
+  <!-- link to main CSS -->
+  <link rel="stylesheet" href="_css/main.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+  <link href="style.css" rel="stylesheet"> -->
 
- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<!--link to  javascript file 'script'-->
-<script type="application/javascript" src="script.js"></script>
-
-
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <!--link to  javascript file 'script'-->
+  <script type="application/javascript" src="script.js"></script>
  <!--begin the nav collapse bar-->
   <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
@@ -35,41 +32,44 @@
 </div>
 
   <body>
-    <h2>SEND REQUEST.HTML PAGE</h2>
-    <div id="app">
-          <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="rounded-circle" alt="Cinque Terre" class="float-right">
-    </div>
+ 
+     
+ 
     <form>
-        <div class="form-row align-items-center">
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInput">Name</label>
-            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+        <div class="form-row">
+          <div class="col">
+              <img src="/images/unknownMale-469x469.jpg" class="rounded float-left" alt="unknown">
           </div>
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInputGroup">Username</label>
-            <div class="input-group mb-2">
-              <div class="input-group-prepend">
-                <div class="input-group-text">@</div>
-              </div>
-              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-            </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Contact Name">
           </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Comment">
+          </div>
+          <div class="col-2">
+              <select class="form-control">
+                  <option>IOU</option>
+                  <option>UOME</option>
+                </select>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="$">
+          </div>
+        </div>
       </form>
 
 
-  <div id="wrapper">
-<div class="scroll">
-        <button type="button" class="btn btn-info custom-btn">Request<br>$</button>
-        <button type="button" class="btn btn-info custom-btn">Send<br>$</button>
-        <button type="button" class="btn btn-info custom-btn">Save<br>$</button>
-      </div>
-    </div>
+ 
+      <div id="wrapper">
+          <div class="scroll">
+            <div class="link">
+              <a href="url">Send</a>
+              <a href="url">Request</a>
+              <a href="url">Save</a>
+            </div>
+          </div>
+        </div>
 
-
-
-
-<!--firebase javascript-->
-<script type="text/javascript" src= "https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 
 </body>
 </html>

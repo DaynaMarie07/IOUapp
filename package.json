@@ -4,7 +4,8 @@
   "description": "I owe you, money management mobile web application.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/DaynaMarie07/IOUapp#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.1",
     "chai": "^4.1.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
@@ -27,5 +29,6 @@
     "nightmare": "^3.0.1",
     "sequelize": "^4.37.8",
     "titleize": "^1.0.1"
-  }
+  },
+  "devDependencies": {}
 }
