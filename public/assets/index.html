@@ -4,18 +4,20 @@
   <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- link to main CSS -->
+  <link rel="stylesheet" href="_css/main.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+  <link href="style.css" rel="stylesheet"> -->
 
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <!--link to  javascript file 'script'-->
 
-  <!-- link to main CSS -->
-  <link rel="stylesheet" href="/main.css">
 </head>
-
 <body>
 
   <div class="pos-f-t">
@@ -87,13 +89,7 @@
     <span id="twitter-timeline"></span>
   </div>
   <script>
-    // $.ajax({
-    //   URL: "http://newsapi.org/v2/top-headlines?country=us&apiKey=c85d91f801f64b9e94d85180affeb654",
-
-    //   success: function (data) {
-    //     console.log("AAAA");
-    //   }
-    // })
+   
     $.ajax({
         method: "GET",
         url: "http://newsapi.org/v2/top-headlines?country=us&apiKey=c85d91f801f64b9e94d85180affeb654"
@@ -107,6 +103,7 @@
         
       });
   </script>
-</body>
+  <script type="application/javascript" src="/javascript/script.js"></script>
 
+</body>
 </html>
