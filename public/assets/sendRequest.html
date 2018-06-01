@@ -1,22 +1,23 @@
 <html lang="en">
 <head>
-  <title>Profile</title>
- <!--link to main CSS-->
+  <title>Send & Request Money</title>
+   <!--Meta Tag-->
 
    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-<link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" href="/framework7/dist/css/framework7.min.css">
-  <link rel="stylesheet" href="/framework7/dist/css/my-app.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+   <meta name="apple-mobile-web-app-capable" content="yes">
+      <!--CSS Links-->
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script> -->
-
- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<!--link to  javascript file 'script'-->
-<script type="application/javascript" src="script.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="/main.css">
+     
+   <!--JavaScript Links-->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+   <!--link to  javascript file 'script'-->
+   <script type="application/javascript" src="script.js"></script>
 
 
  <!--begin the nav collapse bar-->
@@ -35,41 +36,39 @@
 </div>
 
   <body>
-    <h2>SEND REQUEST.HTML PAGE</h2>
-    <div id="app">
-          <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" class="rounded-circle" alt="Cinque Terre" class="float-right">
-    </div>
+    
     <form>
-        <div class="form-row align-items-center">
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInput">Name</label>
-            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Jane Doe">
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Contact Name">
           </div>
-          <div class="col-auto">
-            <label class="sr-only" for="inlineFormInputGroup">Username</label>
-            <div class="input-group mb-2">
-              <div class="input-group-prepend">
-                <div class="input-group-text">@</div>
-              </div>
-              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
-            </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Comment">
           </div>
+          <div class="col-2">
+              <select class="form-control">
+                  <option>IOU</option>
+                  <option>UOME</option>
+                </select>
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="$">
+          </div>
+        </div>
       </form>
 
 
-  <div id="wrapper">
-<div class="scroll">
-        <button type="button" class="btn btn-info custom-btn">Request<br>$</button>
-        <button type="button" class="btn btn-info custom-btn">Send<br>$</button>
-        <button type="button" class="btn btn-info custom-btn">Save<br>$</button>
-      </div>
-    </div>
+ 
+      <div id="wrapper">
+          <div class="scroll">
+            <div class="my-btn">
+              <a href="url">Send</a>
+              <a href="url">Request</a>
+              <a href="url">Save</a>
+            </div>
+          </div>
+        </div>
 
-
-
-
-<!--firebase javascript-->
-<script type="text/javascript" src= "https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 
 </body>
 </html>

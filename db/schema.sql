@@ -1,2 +1,4 @@
 DROP DATABASE IF EXISTS `iouapp_db`;
 CREATE DATABASE `iouapp_db`;
+
+CREATE TABLE 
