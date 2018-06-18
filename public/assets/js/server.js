@@ -8,13 +8,13 @@ var PORT = process.env.port || 8080;
 
 // require model for sync
 var db = require("./models");
-
+app.use(express.static('public'))
 // parse app
 app.use(bodyParser.urlencoded({ extended: true }));
  //  .json parse
 app.use(bodyParser.json());
 // static directory
-app.use('/public', express.static("public"));
+// app.use('/public', express.static("public"));
 
 // routes
 require("./routes/api-routes.js")(app);

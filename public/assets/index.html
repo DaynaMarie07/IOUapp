@@ -16,6 +16,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <!--link to  javascript file 'script'-->
+  <!-- <a src="/htdocs/table.php">PHP </a> -->
+
 
 </head>
 <body>
@@ -76,15 +78,17 @@
 
     <div id="wrapper">
       <div class="scroll">
-        <a href="sendRequest.html" class="btn  my-custom-btn">Request
-          <br>$</a>
-        <a href="sendRequest.html" class="btn  my-custom-btn">Send
-          <br>$</a>
-        <a href="#" class="btn  my-custom-btn">Save
-          <br>$</a>
-    </a>
+        <div class="button">
+        <button type="button" class="btn  my-custom-btn"><a href="sendRequest.html">Request
+          <br>$</a></button>
+          <button type="button" class="btn  my-custom-btn"><a href="sendRequest.html" >Send
+          <br>$</a></button>
+          <button type="button" class="btn  my-custom-btn"> <a href="#"> Save
+          <br>$</a></button>
+        </div>
+      </div>
   <!--container div-->
-  <div>
+  <div class="container">
     <h3>Fox News Tweets</h3>
     <span id="twitter-timeline"></span>
   </div>
@@ -103,7 +107,7 @@
 
       });
 
-    $.ajax({
+    $.ajax({ 
       url: "/api/ious",
       method: "GET",
       success: function (data) {
@@ -111,7 +115,7 @@
       }
     })
   </script>
-  <script type="application/javascript" src="/javascript/script.js"></script>
+      <script type="application/javascript" src="/public/assets/js/script.js"></script>
 
 </body>
 </html>

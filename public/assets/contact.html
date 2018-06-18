@@ -8,6 +8,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!--link to  javascript file 'script'-->
+    <!--begin the nav collapse bar-->
+ 
   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <!-- link to main CSS -->
@@ -15,15 +21,6 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
     <link href="style.css" rel="stylesheet"> -->
   
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <!--link to  javascript file 'script'-->
-    <script type="application/javascript" src="script.js"></script>
-
-
- <!--begin the nav collapse bar-->
- 
   <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
           <div class="bg-dark p-4">
@@ -38,20 +35,14 @@
             <span class="navbar-toggler-icon"></span> 
         </div>
   </div>
-
+</head>
   <body>
-    <div class="container-responsive center">
-      
-          <img src="http://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_mini.png https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3_mini.png
-          " class="rounded-circle" alt="Cinque Terre" class="float-right" width="20%">
-          <form>
-              <div class="form-group">
-                <label for="exampleFormControlFile1">Example file input</label>
-                <input type="file" class="form-control-file" id="exampleFormControlFile1">
-              </div>
-          </form>
-    </div>
-    <form>
+      <div class="form-row">
+          <div class="col">
+              <img src="https://aicaonline.org/wp-content/uploads/2014/08/unknownMale-469x469.jpg" class="rounded float-left" alt="unknown" width=20%>
+          </div>
+        </div>
+    <div class="container-responsive">
       <!--User IMG input -->
         <div class="form-group">
           <label for="exampleFormControlFile1">Example file input</label>
@@ -76,13 +67,16 @@
           </div>
       </form>
 
-      <div id="wrapper">
-          <div class="scroll">
-            <div class="my-btn">
-              <a href="url">Send</a>
-              <a href="url">Request</a>
-              <a href="url">Save</a>
-            </div>
+     
+    <div id="wrapper">
+        <div class="scroll">
+          <div class="button">
+          <button type="button" class="btn  my-custom-btn"><a href="sendRequest.html">Request
+            <br>$</a></button>
+            <button type="button" class="btn  my-custom-btn"><a href="sendRequest.html" >Send
+            <br>$</a></button>
+            <button type="button" class="btn  my-custom-btn"> <a href="#"> Save
+            <br>$</a></button>
           </div>
         </div>
         <div class="col">
@@ -151,6 +145,8 @@
               </table>
               <!--container div-->
             </div>
+            
+ <script type="application/javascript" src="/public/assets/js/script.js"></script>
 
 </body>
 </html>
