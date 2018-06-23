@@ -1,7 +1,6 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "description": "",
   "main": "jquery-ui.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,5 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "node": "^10.4.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

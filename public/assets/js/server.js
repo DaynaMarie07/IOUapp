@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // static directory
 // app.use('/public', express.static("public"));
-
+app.listen(procress.env.PORT || 8080, () => console.log('Yay, it works!'))
 // routes
 require("./routes/api-routes.js")(app);
 require("./routes/html-routes.js")(app);
