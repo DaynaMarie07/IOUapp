@@ -16,7 +16,10 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "compress": true,
+    "disableHostCheck": true
+ 
   },
   "dependencies": {
     "axios": "^0.16.2",
