@@ -1,0 +1,27 @@
+{
+  "name": "iouapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.1.1",
+    "express": "^4.16.3",
+    "sequelize": "^4.37.8",
+    "node.js": "^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaynaMarie07/IOUapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaynaMarie07/IOUapp/issues"
+  },
+  "homepage": "https://github.com/DaynaMarie07/IOUapp#readme"
+}
